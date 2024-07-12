@@ -40,15 +40,15 @@ docker-compose up --build
 ```
 This will start the following services:
 
-app: The Node.js application running on port 5000.
-mongo: The MongoDB database running on port 27017.
-kafka: The Kafka broker running on port 9093.
-zookeeper: The Zookeeper service running on port 2182.
+- app: The Node.js application running on port 5000.
+- mongo: The MongoDB database running on port 27017.
+- kafka: The Kafka broker running on port 9093.
+- zookeeper: The Zookeeper service running on port 2182.
 
 ### 3. Access the Application
-The Node.js application will be running at http://localhost:5000.
-The MongoDB instance will be accessible at mongodb://localhost:27017.
-The Kafka broker will be accessible at localhost:9093.
+- The Node.js application will be running at http://localhost:5000.
+- The MongoDB instance will be accessible at mongodb://localhost:27017.
+- The Kafka broker will be accessible at localhost:9093.
 
 ### 4. API Endpoints
 Auth Service
